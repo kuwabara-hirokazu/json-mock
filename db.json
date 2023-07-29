@@ -1,0 +1,640 @@
+{
+  "registration": {
+    "pages": [
+      {
+        "description": "後から変更できます",
+        "forms": [
+          {
+            "data_type": "radio",
+            "description": "",
+            "id": 3,
+            "label": "サービスの利用用途",
+            "options": [
+              {
+                "description": null,
+                "id": 2,
+                "label": "主に仕事を受注したい（発注者を探す）",
+                "options": [],
+                "value": "2"
+              },
+              {
+                "description": null,
+                "id": 3,
+                "label": "主に仕事を発注したい（職人を探す）",
+                "options": [],
+                "value": "3"
+              },
+              {
+                "description": null,
+                "id": 4,
+                "label": "受注・発注の両方で利用したい",
+                "options": [],
+                "value": "4"
+              }
+            ],
+            "rule": {
+              "maximum": 200,
+              "minimum": 0,
+              "required": true
+            },
+            "system_name": "user_detail-usage_of_service",
+            "value": "",
+            "values": []
+          }
+        ],
+        "label": "どのようにFAcraftを利用したいか教えてください"
+      },
+      {
+        "description": "任意項目です",
+        "forms": [
+          {
+            "data_type": "text_input",
+            "description": "",
+            "id": 2,
+            "label": "屋号",
+            "options": [],
+            "rule": {
+              "maximum": 200,
+              "minimum": 0,
+              "required": true
+            },
+            "system_name": "user_detail-business_name",
+            "value": "",
+            "values": []
+          }
+        ],
+        "label": "あなたの屋号を教えてください"
+      },
+      {
+        "description": "",
+        "forms": [
+          {
+            "data_type": "date_input",
+            "description": "",
+            "id": 1,
+            "label": "生年月日",
+            "options": [],
+            "rule": {
+              "maximum": 200,
+              "minimum": 0,
+              "required": true
+            },
+            "system_name": "user-birth_date",
+            "value": "2000-01-01",
+            "values": []
+          }
+        ],
+        "label": "あなたについてもう少し詳しく教えてください！"
+      },
+      {
+        "description": "",
+        "forms": [
+          {
+            "data_type": "radio",
+            "description": "",
+            "id": 1,
+            "label": "",
+            "options": [
+              {
+                "desctiption": null,
+                "id": 1,
+                "label": "北海道",
+                "options": [
+                  {
+                    "desctiption": null,
+                    "id": 1,
+                    "label": "北海道",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 1,
+                        "label": "函館市",
+                        "options": [],
+                        "value": "1"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 2,
+                        "label": "小樽市",
+                        "options": [],
+                        "value": "2"
+                      }
+                    ],
+                    "value": "1"
+                  }
+                ],
+                "value": "1"
+              },
+              {
+                "desctiption": null,
+                "id": 2,
+                "label": "東北",
+                "options": [
+                  {
+                    "desctiption": null,
+                    "id": 2,
+                    "label": "青森県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 179,
+                        "label": "青森市",
+                        "options": [],
+                        "value": "179"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 180,
+                        "label": "弘前市",
+                        "options": [],
+                        "value": "180"
+                      }
+                    ],
+                    "value": "2"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 3,
+                    "label": "岩手県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 219,
+                        "label": "盛岡市",
+                        "options": [],
+                        "value": "219"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 220,
+                        "label": "宮古市",
+                        "options": [],
+                        "value": "220"
+                      }
+                    ],
+                    "value": "3"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 4,
+                    "label": "宮城県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 252,
+                        "label": "石巻市",
+                        "options": [],
+                        "value": "252"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 253,
+                        "label": "塩竈市",
+                        "options": [],
+                        "value": "253"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 254,
+                        "label": "気仙沼市",
+                        "options": [],
+                        "value": "254"
+                      }
+                    ],
+                    "value": "4"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 5,
+                    "label": "秋田県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 286,
+                        "label": "秋田市",
+                        "options": [],
+                        "value": "286"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 287,
+                        "label": "能代市",
+                        "options": [],
+                        "value": "287"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 288,
+                        "label": "横手市",
+                        "options": [],
+                        "value": "288"
+                      }
+                    ],
+                    "value": "5"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 6,
+                    "label": "山形県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 311,
+                        "label": "山形市",
+                        "options": [],
+                        "value": "311"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 312,
+                        "label": "米沢市",
+                        "options": [],
+                        "value": "312"
+                      }
+                    ],
+                    "value": "6"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 7,
+                    "label": "福島県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 346,
+                        "label": "福島市",
+                        "options": [],
+                        "value": "346"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 347,
+                        "label": "会津若松市",
+                        "options": [],
+                        "value": "347"
+                      }
+                    ],
+                    "value": "7"
+                  }
+                ],
+                "value": "2"
+              },
+              {
+                "desctiption": null,
+                "id": 3,
+                "label": "関東",
+                "options": [
+                  {
+                    "desctiption": null,
+                    "id": 8,
+                    "label": "茨城県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 405,
+                        "label": "水戸市",
+                        "options": [],
+                        "value": "405"
+                      }
+                    ],
+                    "value": "8"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 9,
+                    "label": "栃木県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 449,
+                        "label": "宇都宮市",
+                        "options": [],
+                        "value": "449"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 450,
+                        "label": "足利市",
+                        "options": [],
+                        "value": "450"
+                      }
+                    ],
+                    "value": "9"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 10,
+                    "label": "群馬県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 474,
+                        "label": "前橋市",
+                        "options": [],
+                        "value": "474"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 475,
+                        "label": "高崎市",
+                        "options": [],
+                        "value": "475"
+                      }
+                    ],
+                    "value": "10"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 11,
+                    "label": "埼玉県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 509,
+                        "label": "川越市",
+                        "options": [],
+                        "value": "509"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 510,
+                        "label": "熊谷市",
+                        "options": [],
+                        "value": "510"
+                      }
+                    ],
+                    "value": "11"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 12,
+                    "label": "千葉県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 571,
+                        "label": "銚子市",
+                        "options": [],
+                        "value": "571"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 572,
+                        "label": "市川市",
+                        "options": [],
+                        "value": "572"
+                      }
+                    ],
+                    "value": "12"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 13,
+                    "label": "東京都",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 624,
+                        "label": "千代田区",
+                        "options": [],
+                        "value": "624"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 625,
+                        "label": "中央区",
+                        "options": [],
+                        "value": "625"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 626,
+                        "label": "港区",
+                        "options": [],
+                        "value": "626"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 627,
+                        "label": "新宿区",
+                        "options": [],
+                        "value": "627"
+                      }
+                    ],
+                    "value": "13"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 14,
+                    "label": "神奈川県",
+                    "options": [
+                      {
+                        "desctiption": null,
+                        "id": 686,
+                        "label": "横須賀市",
+                        "options": [],
+                        "value": "686"
+                      },
+                      {
+                        "desctiption": null,
+                        "id": 687,
+                        "label": "平塚市",
+                        "options": [],
+                        "value": "687"
+                      }
+                    ],
+                    "value": "14"
+                  }
+                ],
+                "value": "3"
+              },
+              {
+                "desctiption": null,
+                "id": 9,
+                "label": "海外",
+                "options": [
+                  {
+                    "desctiption": null,
+                    "id": 48,
+                    "label": "海外",
+                    "options": [],
+                    "value": "48"
+                  }
+                ],
+                "value": "9"
+              }
+            ],
+            "rule": {
+              "maximum": 200,
+              "minimum": 0,
+              "required": false
+            },
+            "system_name": "user_profile-city_id",
+            "value": "",
+            "values": []
+          }
+        ],
+        "label": "あなたのお住まいのエリアはどこですか？"
+      },
+      {
+        "description": "後から変更できます",
+        "forms": [
+          {
+            "data_type": "checkbox",
+            "description": "",
+            "id": 1,
+            "label": "",
+            "options": [
+              {
+                "desctiption": null,
+                "id": 1,
+                "label": "北海道",
+                "options": [
+                  {
+                    "desctiption": null,
+                    "id": 1,
+                    "label": "北海道",
+                    "options": [],
+                    "value": "1"
+                  }
+                ],
+                "value": "1"
+              },
+              {
+                "desctiption": null,
+                "id": 2,
+                "label": "東北",
+                "options": [
+                  {
+                    "desctiption": null,
+                    "id": 2,
+                    "label": "青森県",
+                    "options": [],
+                    "value": "2"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 3,
+                    "label": "岩手県",
+                    "options": [],
+                    "value": "3"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 4,
+                    "label": "宮城県",
+                    "options": [],
+                    "value": "4"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 5,
+                    "label": "秋田県",
+                    "options": [],
+                    "value": "5"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 6,
+                    "label": "山形県",
+                    "options": [],
+                    "value": "6"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 7,
+                    "label": "福島県",
+                    "options": [],
+                    "value": "7"
+                  }
+                ],
+                "value": "2"
+              },
+              {
+                "desctiption": null,
+                "id": 3,
+                "label": "関東",
+                "options": [
+                  {
+                    "desctiption": null,
+                    "id": 8,
+                    "label": "茨城県",
+                    "options": [],
+                    "value": "8"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 9,
+                    "label": "栃木県",
+                    "options": [],
+                    "value": "9"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 10,
+                    "label": "群馬県",
+                    "options": [],
+                    "value": "10"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 11,
+                    "label": "埼玉県",
+                    "options": [],
+                    "value": "11"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 12,
+                    "label": "千葉県",
+                    "options": [],
+                    "value": "12"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 13,
+                    "label": "東京都",
+                    "options": [],
+                    "value": "13"
+                  },
+                  {
+                    "desctiption": null,
+                    "id": 14,
+                    "label": "神奈川県",
+                    "options": [],
+                    "value": "14"
+                  }
+                ],
+                "value": "3"
+              },
+              {
+                "desctiption": null,
+                "id": 9,
+                "label": "海外",
+                "options": [
+                  {
+                    "desctiption": null,
+                    "id": 48,
+                    "label": "海外",
+                    "options": [],
+                    "value": "48"
+                  }
+                ],
+                "value": "9"
+              }
+            ],
+            "rule": {
+              "maximum": 200,
+              "minimum": 0,
+              "required": false
+            },
+            "system_name": "user_available_prefecture-user_input",
+            "value": "",
+            "values": []
+          }
+        ],
+        "label": "あなたの事業対応エリアを教えてください！"
+      }
+    ]
+  }
+}
